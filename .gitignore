@@ -1,0 +1,10 @@
+# Vim swp file
+*.swp
+
+# dist
+/dist/popup.js
+/dist/checked.js
+
+/node_modules
+
+
