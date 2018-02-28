@@ -18,6 +18,8 @@
 
   "dist" is the directory to load via chrome://extensions.
 
+  Any changes in "dist" are automatically detected and the extension is hot-reloaded thanks to [crx-hotreload](https://github.com/xpl/crx-hotreload).
+
   For production
 
   ```Shell
