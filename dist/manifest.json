@@ -16,7 +16,12 @@
     "default_popup": "popup.html",
     "default_title": "Chrome Darkener"
   },
+
   "permissions": [
     "activeTab"
-  ]
+  ],
+
+  "background": {
+    "scripts": ["hot-reload.js"]
+  }
 }
