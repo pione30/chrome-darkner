@@ -2,7 +2,6 @@
   "name": "chrome-darkener",
   "version": "1.0.0",
   "description": "Chrome Darkener",
-  "main": "popup.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --config webpack.config.js --watch --debug",
