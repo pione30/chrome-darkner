@@ -2,13 +2,13 @@
   "name": "chrome-darkener",
   "version": "1.0.0",
   "description": "Chrome Darkener",
+  "author": "pione30",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --config webpack.config.js --watch --debug",
     "prod": "webpack --config webpack.config.js -p"
   },
-  "author": "pione30",
-  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
