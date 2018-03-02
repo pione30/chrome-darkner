@@ -2,8 +2,9 @@
 *.swp
 
 # dist
-/dist/popup.js
-/dist/checked.js
+/dist/js/*
+# don't ignore hot-reload.js
+!/dist/js/hot-reload.js
 
 /node_modules
 

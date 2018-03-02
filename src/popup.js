@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
       { code: 'var checked = ' + toggle_switch.checked.toString() + ';' },
       () => {
         chrome.tabs.executeScript(
-          { file: './checked.js' }
+          { file: './js/checked.js' }
         )
       }
     )
