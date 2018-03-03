@@ -1,4 +1,4 @@
-# chrome-darkner
+# chrome-darkener
 
   Darken current page.
 
