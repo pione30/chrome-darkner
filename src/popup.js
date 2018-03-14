@@ -1,4 +1,5 @@
 import allColorChange from './allColorChange.js'
+import './style.css'
 
 document.addEventListener('DOMContentLoaded', () => {
 
