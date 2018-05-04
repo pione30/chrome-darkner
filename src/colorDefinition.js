@@ -1,6 +1,6 @@
 export const color_definition = {
 
-  checked_backgroundColor:     '#0a0a0a',
+  checked_backgroundColor:     '#1c1c1c',
   not_checked_backgroundColor: 'white',
 
   checked_color:               '#aaaaaa',
