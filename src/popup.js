@@ -1,4 +1,5 @@
 import allColorChange from './allColorChange.js'
+import { color_definition } from './colorDefinition.js'
 import './style.css'
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -12,8 +13,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // change popup.html colors themselves
     allColorChange(
       {
-        backgroundColor: checked ? '#0a0a0a' : 'white',
-        color: checked ? '#aaaaaa' : 'black'
+        backgroundColor: checked ? color_definition['checked_backgroundColor'] : color_definition['not_checked_backgroundColor'],
+
+        color: checked ? color_definition['checked_color'] : color_definition['not_checked_color']
       }
     )
 
