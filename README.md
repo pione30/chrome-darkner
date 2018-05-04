@@ -1,6 +1,6 @@
 # chrome-darkener
 
-  Darken current page.
+  Darken current page. [Chrome Web Store link](https://chrome.google.com/webstore/detail/chrome-darkener/kmondopnmblnlbaiknnjfjdemohffljl)
 
 ## How to build
 
