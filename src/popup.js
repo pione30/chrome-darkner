@@ -1,4 +1,4 @@
-import allColorChange from './allColorChange.js'
+import searchAndColorChange from './searchAndColorChange.js'
 import { color_definition } from './colorDefinition.js'
 import './style.css'
 
@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const checked = toggle_switch.checked
 
     // change popup.html colors themselves
-    allColorChange(
+    searchAndColorChange(document.body.parentNode,
       {
         backgroundColor: checked ? color_definition['checked_backgroundColor'] : color_definition['not_checked_backgroundColor'],
 
