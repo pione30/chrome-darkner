@@ -1,5 +1,5 @@
 import searchAndColorChange from './searchAndColorChange.js'
-import { color_definition } from './colorDefinition.js'
+import colorDefinition from './colorDefinition.js'
 import './style.css'
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -11,13 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const checked = toggle_switch.checked
 
     // change popup.html colors themselves
-    searchAndColorChange(document.body.parentNode,
-      {
-        backgroundColor: checked ? color_definition['checked_backgroundColor'] : color_definition['not_checked_backgroundColor'],
-
-        color: checked ? color_definition['checked_color'] : color_definition['not_checked_color']
-      }
-    )
+    searchAndColorChange(document.body.parentNode, colorDefinition(checked))
 
     // change colors of current tab
     chrome.tabs.executeScript(
