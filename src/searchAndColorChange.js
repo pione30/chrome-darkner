@@ -1,4 +1,4 @@
-export default function searchAndColorChange(element, colordict) {
+const searchAndColorChange = (element, colordict) => {
 
   let children = element.children
 
@@ -10,3 +10,5 @@ export default function searchAndColorChange(element, colordict) {
   }
 
 }
+
+export default searchAndColorChange

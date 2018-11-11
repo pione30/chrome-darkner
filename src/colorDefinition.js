@@ -1,4 +1,4 @@
-export default function(checked) {
+export default (checked) => {
 
   return checked ? {
     backgroundColor: '#1c1c1c',

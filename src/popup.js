@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     searchAndColorChange(document.body.parentNode, colorDefinition(checked))
 
     // change colors of current tab
-    chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+    chrome.tabs.query({active: true, currentWindow: true}, (tabs) => {
       chrome.tabs.sendMessage(tabs[0].id, { checked: checked })
     })
 
