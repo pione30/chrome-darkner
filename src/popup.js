@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const checked = toggle_switch.checked
 
     // change popup.html colors themselves
-    searchAndColorChange(document.body.parentNode, colorDefinition(checked))
+    searchAndColorChange(document.documentElement, colorDefinition(checked))
 
     // change colors of current tab
     chrome.tabs.query({active: true, currentWindow: true}, (tabs) => {
