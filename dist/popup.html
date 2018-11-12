@@ -7,16 +7,19 @@
 
   <body>
     <h1>Chrome Darkener</h1>
-    <div class="darkenBoxArea">
-      <input type="checkbox" id="darken_toggle">
-      <label for="darken_toggle">
-        <span></span>
-      </label>
-    </div>
-    <div id="includedNodes">
-      <label><input type="checkbox" value="a">Darken "a" tags</label>
-      <label><input type="checkbox" value="pre">Darken "pre" tags</label>
-      <label><input type="checkbox" value="code">Darken "code" tags</label>
+    <div id="container">
+      <div class="darkenBoxArea">
+        <input type="checkbox" id="darken_toggle">
+        <label for="darken_toggle">
+          <span></span>
+        </label>
+      </div>
+      <br>
+      <div id="includedNodes">
+        <label><input type="checkbox" value="a">Affect "a" tags</label>
+        <label><input type="checkbox" value="pre">Affect "pre" tags</label>
+        <label><input type="checkbox" value="code">Affect "code" tags</label>
+      </div>
     </div>
   </body>
 </html>
