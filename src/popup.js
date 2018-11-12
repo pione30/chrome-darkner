@@ -6,14 +6,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const toggle_switch = document.getElementById('darken_toggle')
   const includedNodes = document.querySelectorAll('#includedNodes label input')
-  const container = document.getElementById('container')
 
   // inject content scripts which recieves a message
   chrome.tabs.executeScript(
     { file: './js/checked.js' }
   )
 
-  container.addEventListener('change', () => {
+  toggle_switch.addEventListener('change', () => {
 
     const checked = toggle_switch.checked
 
