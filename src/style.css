@@ -42,17 +42,17 @@ h1 {
   content: "ON";
 }
 
-#excludeNodes {
+#excludedNodes {
   padding-top: 1em;
 }
 
-#excludeNodes label {
+#excludedNodes label {
   display: block;
   position: relative;
   padding-left: 1em;
 }
 
-#excludeNodes label input {
+#excludedNodes label input {
   padding-top: 1em;
   position: absolute;
   top: 0;
