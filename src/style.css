@@ -5,6 +5,7 @@ body {
 
 h1 {
   font-size: 18px;
+  text-align: center;
 }
 
 .darkenBoxArea {
@@ -17,27 +18,46 @@ h1 {
 }
 
 .darkenBoxArea label {
-  border : 2px solid #aaa;
-  border-radius : 3px;
-  box-shadow : 3px 3px 6px #888;
-  box-sizing : border-box;
-  display : block;
-  font-size : 18px;
-  font-weight : bold;
-  height : 60px;
-  line-height : 60px;
-  text-align : center;
-  transition : .3s; /* delay change */
+  border: 2px solid #aaa;
+  border-radius: 3px;
+  box-shadow: 3px 3px 6px #888;
+  box-sizing: border-box;
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  transition: .3s; /* delay change */
 }
 
 .darkenBoxArea label span::after {
-  content : "OFF";
+  content: "OFF";
 }
 
 .darkenBoxArea #darken_toggle:checked ~ label {
-  box-shadow : none;
+  box-shadow: none;
 }
 
 .darkenBoxArea #darken_toggle:checked ~ label span::after {
-  content : "ON";
+  content: "ON";
+}
+
+#includedNodes {
+  padding-top: 1em;
+}
+
+#includedNodes label {
+  display: block;
+  position: relative;
+  padding-left: 1em;
+}
+
+#includedNodes label input {
+  padding-top: 1em;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
 }
